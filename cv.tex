@@ -1,0 +1,72 @@
+%% start of file `moderncv_ntrp_template_en.tex'.
+%% Copyright 2007 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+%
+% Modded by ntrp (nitropowered@gmail.com)
+
+\documentclass[11pt,a4paper]{moderncv}
+
+% moderncv themes
+%\moderncvtheme[blue]{casual}                 % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+\moderncvtheme[green]{classic}                % idem
+
+\usepackage[T1]{fontenc}
+% character encoding
+\usepackage[utf8x]{inputenc}                   % replace by the encoding you are using
+\usepackage[french]{babel}
+
+% adjust the page margins
+\usepackage[scale=0.80]{geometry}
+\recomputelengths                             % required when changes are made to page layout lengths
+
+% personal data
+\firstname{Alexandre}
+\familyname{Manuel}
+\address{38 rue Etienne Dolet}{94230 Cachan}    % optional, remove the line if not wanted
+\phone{+33 6 37 64 59 80}                      % optional, remove the line if not wanted
+\email{alexandre.manuel@epita.fr}                      % optional, remove the line if not wanted
+
+\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\maketitle
+
+%Section
+\section{Formations}
+\cventry{Juin 2013}{Baccalauréat}{section STI2D}{Mention bien}{}{} % arguments 3 to 6 are optional
+\cventry{Juin 2014}{\href{http://epita.fr}{Epita Sup (1ère année)}}{école d’ingénieurs en informatique}{}{}{} % arguments 3 to 6 are optional
+\cventry{Jui-Sep 2014}{\href{http://accengage.com}{Accengage}}{Stagiaire}{SDK pour Windows Phone Silverlight (2 mois)}{}{} % arguments 3 to 6 are optional
+\section{Concours}
+\cventry{Oct 2012}{\href{http://www.dailymotion.com/sas/hackathon}{Hackathon BeMyApp vidéo}}{1ère place}{}{}{Dailymotion} % arguments 3 to 6 are optional
+\cventry{Nov 2012}{\href{https://www.etalab.gouv.fr/hackathonopentourismeamarseille170participants22projetsopendata}{Hackathon BeMyApp open tourisme}}{2ème équipe de Nantes}{}{}{SNCF, Google, Bouches-du-Rhône Tourisme, Etalab} % arguments 3 to 6 are optional
+\cventry{Dec 2012}{\href{http://www.open-du-web.fr/edition-2012}{Open du web \#3}}{20ème}{}{}{Les argonautes, ...} % arguments 3 to 6 are optional
+\cventry{Mars 2013}{\href{http://prologin.org}{Prologin}}{Epreuves régionales}{}{}{Epita, UPMC, Polytechnique, Google, ...} % arguments 3 to 6 are optional
+\cventry{Fev-Avr 2013}{\href{http://bg-design.fr/project/easy-access}{Dev Kings BeMyApp}}{Finale}{}{}{Microsoft} % arguments 3 to 6 are optional
+\cventry{Oct 2013}{\href{http://lemeilleurdevdefrance.com}{Meilleur dev de France}}{93ème}{}{}{École 42, Salesforce, Parrot, 1\&1, Dassault Systemes, ...} % arguments 3 to 6 are optional
+\cventry{Nov 2013}{\href{http://www.open-du-web.fr}{Open du web \#4}}{2ème catégorie développement (1er Français)}{}{}{Les argonautes, ministère du redressement productif, ...} % arguments 3 to 6 are optional
+%\cventry{Mars 2014}{Code in the dark}{Non classé}{}{}{Tictail, Deezer, PayPal, ...} % arguments 3 to 6 are optional
+
+%Section
+\section{Compétences}
+\cvdoubleitem{Langues}{Français, Anglais (915 TOEIC)} {Dev perso}{Théâtre (10 ans), Vélo}
+\cvdoubleitem{Web dev}{PHP : POO, MVC, regex, PDO, PHPGD}  {Intégration}{HTML5, CSS3, jQuery, responsive \mbox{design}}
+\cvdoubleitem{Local dev}{C (SDL \& FMOD), C++, \mbox{C\# (XNA \& Silverlight)}} {Bases de données} {SQL : Big Data, Azure, MySQL}
+
+%Section
+\section{Projets réalisés}
+\cvlistdoubleitem{\href{http://bg-design.fr/project/easy-access}{Easy Access (Dev Kings)}}{\href{http://www.dailymotion.com/sas/hackathon}{WizzMe (BeMyApp vidéo)}}
+\cvlistdoubleitem{\href{http://ratton-ladriere.com}{ratton-ladriere.com}}{\href{http://menagerietechnologique.fr}{menagerietechnologique.fr}}
+\cvlistdoubleitem{\href{http://moon-xnova.org}{moon-xnova.org}}{}
+
+%Section
+\section{Trouvez moi}
+Retrouvez moi sur \href{https://facebook.com/tsunami33}{Facebook}, \href{https://github.com/tsunami33}{Github}, \href{http://openclassrooms.com/membres/tsunami33-10376}{Openclassrooms}, \href{https://zestedesavoir.com/membres/voir/tsunami33}{Zeste de Savoir}, \href{https://stackoverflow.com/users/3604143/tsunami33}{Stack Overflow} et \href{http://www.newbiecontest.org/index.php?page=classementdynamique&member=tsunami33}{Newbie Contest} en tant que tsunami33
+
+\end{document}
